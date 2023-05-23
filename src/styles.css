@@ -6,19 +6,26 @@ body {
     margin: 0;
 }
 
+.display-linebreak {
+    white-space: pre-line;
+}
+
 .container {
     margin: 1rem;
     text-align: center;
 }
 
 .nav {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: #333;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 5rem;
 }
 
 .site-title {
@@ -39,13 +46,13 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
+    padding: .5rem;
 }
 
-.nav li.active {
-    background-color: #555;
-}
+.nav li.active {text-shadow:1px 0 0 #333;}
 
-.nav li:hover {
-    background-color: #555;
+.nav li:hover {text-shadow:1px 0 0 #333;}
+
+.bold :hover {
+    font-weight: bold;
 }
