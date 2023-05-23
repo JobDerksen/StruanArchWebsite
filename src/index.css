@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Swis771LtBT";
+  src: local("Swis771LtBT"),
+  url("./fonts/Swis721_Lt_BT/Swiss721LightBT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Swis771Lt";
+  src: local("Swis771LtBT"),
+  url("./fonts/Swis721_Lt_BT/Sw721Lt.ttf") format("truetype");
+}

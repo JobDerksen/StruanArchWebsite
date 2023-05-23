@@ -1,12 +1,13 @@
 import {Link, useMatch, useResolvedPath} from "react-router-dom"
 
 function Navbar() {
-    const heading = 'Struan \n Morrison'
     return (
         <nav className="nav">
-            <div className="display-linebreak">
-                <Link to="/" className="site-title">{heading}</Link>
-            </div>
+            <Link to="/" className="display-linebreak">
+                <div className="site-title">
+                    <span>Struan</span>{'\n'}<span>Morrison</span>
+                </div>
+            </Link>
             <ul>
                 <CustomLink to="/portfolio" > portfolio </CustomLink>
                 <CustomLink to="/freelance" > freelance </CustomLink>
